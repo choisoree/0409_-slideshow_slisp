@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>슬라이드쇼(RTL)</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <!-- jQuery 라이브러리 먼저! -->
+    <script src="script/script.js"></script>
+    <!-- 자바스크립트 소스는 라이브러리 다음에! -->
+
+</head>
+<body>
+   <div id="wrap">
+       <h1>슬라이드쇼_RTL</h1>
+
+       <button id="startBtn" type="button">시작</button>
+       <button id="stopBtn" type="button">중지</button>
+       <button id="moveDaum" type="button">Daum으로 이동</button>
+       <button id="reload" type="button">페이지 새로고침</button>
+
+       <button id="backBtn" type="button">이전페이지</button>
+
+       <button id="goBtn" type="button">다음페이지</button>
+
+
+
+       <br><br>
+
+       <div id="slideArea">
+           <div id="slideShuttleFrame">
+
+               <a data-Test="1" href="#"><img src="images/img_nature_wide_01.jpg" alt="슬라이드이미지1" width="1000"><span>1</span></a>
+
+               <a data-Test="2" href="#"><img src="images/img_snow_wide_02.jpg" alt="슬라이드이미지2" width="1000"><span>2</span></a>
+
+               <a data-Test="3" href="#"><img src="images/img_mountains_wide_03.jpg" alt="슬라이드이미지3" width="1000"><span>3</span></a>
+           </div>
+
+           <!-- 공통으로 띄워주는 텍스트(변화 없음) -->
+           <!--<span id="slideTxt">공통텍스트</span>-->
+
+
+       </div> <!-- div#slideArea 부모요소 -->
+
+   </div>  <!-- div#wrap -->
+
+</body>
+</html>
